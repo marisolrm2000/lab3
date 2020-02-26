@@ -1,7 +1,7 @@
 <?php 
     session_start();
-    if(isset($_SESSION['loggedin'] != 1)){ //if login in session is not set
-      header("Location:../login.php");
+    if($_SESSION['loggedin'] == 0){ //if login in session is not set
+      header("Location:login.php");
   }
 ?>
 <!DOCTYPE html>
