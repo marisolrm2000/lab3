@@ -1,0 +1,86 @@
+:root {
+
+    /* variations of your primary color */
+
+    --primary: #00acc1 !important;
+
+    --primary-light: #5ddef4 !important;
+
+    --primary-dark:  #007c91 !important;
+
+    --primary-text:  #000000 !important;
+
+    --primary-text-color:  black !important;
+
+    /* variations of your secondary color */
+
+    --secondary:  #ffc107 !important;
+
+    --secondary-light:  #fff350 !important;
+
+    --secondary-dark:  #c79100 !important;
+
+    --secondary-text:  black !important;
+
+    --secondary-text-color:  black !important;
+
+}
+
+nav {
+    background-color: var(--primary); 
+    padding: 7px;  
+}
+
+#navlink {
+    color: var(--secondary-light)
+} 
+
+
+#input {
+    width: 3in;
+    padding: 6px;
+    margin-bottom: 2px;
+}
+
+#dueDate {
+    margin-left: 10px;
+    width: 3in;
+    text-align: center;
+}
+
+.todoitem{
+    margin-bottom: 4mm;
+    width: inherit;
+    outline: 2px solid var(--primary-dark);
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+#container{
+    margin-top: 1in;
+    margin-left: 3in;
+    margin-right: 3in;
+    margin-bottom: 3in;
+    outline: 2px solid var(--primary-dark);
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+#removeItem{
+    float: right;
+    position: static;
+}
+
+#sortButton {
+    float: right;
+    position: static;
+}
+
+#loginwelcome{
+    text-align: center;
+    background-color: var(--primary);
+}
+
+
+
+
