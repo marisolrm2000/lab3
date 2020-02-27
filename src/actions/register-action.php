@@ -3,6 +3,7 @@
     include "../config/settings.php";
     $conn = new mysqli($servername, $mysql_user, $mysql_password, $mysql_database);
 
+    $_SESSION['sort'] = 0;
     $username = $_POST['username'];
     $userpass = hash("sha256",$_POST['userpass']);
     $passconf = hash("sha256",$_POST['passconf']);
@@ -52,7 +53,10 @@
         else {
             echo "Error: $conn->error";
         }
+        
 
     }
+
+    $conn->close();
 
 ?>

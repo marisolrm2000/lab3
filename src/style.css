@@ -81,6 +81,10 @@ nav {
     background-color: var(--primary);
 }
 
+.fixme{
+    display: inline;
+}
+
 
 
 
